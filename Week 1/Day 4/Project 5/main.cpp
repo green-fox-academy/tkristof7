@@ -1,18 +1,19 @@
-
 #include <iostream>
-using namespace std;
 
-int main () {
-    // an array with 5 rows and 2 columns.
-    int a[5][2] = { {0,0}, {1,2}, {2,4}, {3,6},{4,8}};
-
-    // output each array element's value
-    for ( int i = 0; i < 5; i++ )
-        for ( int j = 0; j < 2; j++ ) {
-
-            cout << "a[" << i << "][" << j << "]: ";
-            cout << a[i][j]<< endl;
-        }
+int main(int argc, char* args[]) {
+    std::string a = " Toth Kristof ";
+    int b = 22;
+    double c = 1.86;
+    bool d = false;
+std::cout << a << std::endl;
+std::cout << b << std::endl;
+std::cout << c << std::endl;
+std::cout << d << std::endl;
+    // Define several things as a variable then print their values
+    // Your name as a string
+    // Your age as an integer
+    // Your height in meters as a double
+    // Whether you are married or not as a boolean
 
     return 0;
 }
