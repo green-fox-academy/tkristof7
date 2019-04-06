@@ -2,11 +2,11 @@
 
 int main(int argc, char* args[]) {
 
-    double massInKg = 81.2;
-    double heightInM = 1.78;
-
-    std::cout << massInKg / (heightInM * heightInM) << std::endl;
-    // Print the Body mass index (BMI) based on these values
+    // Write a program that stores 3 sides of a cuboid as variables (doubles)
+    // The program should write the surface area and volume of the cuboid like:
+    //
+    // Surface Area: 600
+    // Volume: 1000
 
     return 0;
 }
