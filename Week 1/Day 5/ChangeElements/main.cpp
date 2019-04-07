@@ -2,7 +2,9 @@
 #include <string>
 
 int main(int argc, char *args[]) {
-    int s[6] = {1, 2, 3, 4, 5, 6};
+    int s[6] = {1, 2, 3, 8, 5, 6};
+
+    s[3] = 4; // This is how to change an element.
 
     std::cout << s[3] << std::endl;
 
